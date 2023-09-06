@@ -6,7 +6,7 @@ to provide functionality to the app.
 
 
 // Make a function that allows the user to edit the content of the applied area.
-// Tgis function is intended ot be invoked via an onclick event listener. 
+// This function is intended to be invoked via an onclick event listener on the desired areas.
 function edit_contents(id) {
     let content;
 
