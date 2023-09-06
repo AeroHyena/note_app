@@ -1,8 +1,9 @@
 <DOCTYPE! html>
 
     <head>
-        <link rel="stylesheet" href="style.css">
         <title>Note App</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts/main.js" defer></script>  <!-- 'defer' lets the browser load the script after html content has been loaded-->
     </head>
 
     <body>
@@ -16,8 +17,8 @@
             </div>
 
             <div id="viewport">
-                <div id="title-header"><div id="title">Title Of Note</div></div>
-                <div id="note-contents">
+                <div id="title-header"><div id="title" onclick="edit_contents('title')">Title Of Note</div></div>
+                <div id="note-contents" onclick="edit_contents('note-contents')">
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                     et dolore magna aliqua. Volutpat commodo sed egestas egestas fringilla phasellus. Diam sollicitudin tempor id eu nisl nunc mi. 
