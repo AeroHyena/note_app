@@ -84,6 +84,9 @@ function edit_contents(id) {
     console.log(content);
     content.contentEditable = true;
     content.focus();
+
+    // Remove hover functionality from element
+    document.getElementById(id).classList.remove("editable");
 }
 
 
